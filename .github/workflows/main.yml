@@ -60,6 +60,3 @@ jobs:
           image-ref: 'ghcr.io/henrardme/ue19_labo09-10:main'
           format: 'table'
           exit-code: '1'
-          ignore-unfixed: true
-          vuln-type: 'os,library'
-          severity: 'CRITICAL,HIGH'
